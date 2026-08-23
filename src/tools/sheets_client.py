@@ -1,7 +1,7 @@
 """Google Sheets CRM Integration Client."""
 import json
 import os
-from typing import Optional, Tuple, List, Dict, Any, Set
+from typing import Optional, Tuple, Any, Set
 from src.config.settings import settings
 from src.utils.logger import get_logger
 
@@ -72,7 +72,6 @@ class SheetsClient:
 
     def get_or_create_inbox_sheet(self) -> Any:
         """Retrieve the Inbox worksheet or create it if absent."""
-        import gspread
         spreadsheet = self.get_spreadsheet()
         try:
             return spreadsheet.worksheet("Inbox")
