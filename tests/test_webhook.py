@@ -1,7 +1,5 @@
 """Integration tests for Flask webhook endpoints."""
-import json
 import unittest
-from unittest.mock import patch
 
 
 class TestWebhookEndpoints(unittest.TestCase):

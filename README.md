@@ -1,9 +1,12 @@
 <div align="center">
 
-![CI](https://github.com/akashchandradas7/ai-email-automation-agent/actions/workflows/ci.yml/badge.svg)
-![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue?style=flat&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-ready-blue?style=flat&logo=docker&logoColor=white)
-![Architecture](https://img.shields.io/badge/architecture-autonomous--agent-orange?style=flat)
+[![CI Pipeline](https://img.shields.io/github/actions/workflow/status/akashchandradas7/ai-email-automation-agent/ci.yml?branch=main&style=flat-square&logo=github&logoColor=white)](https://github.com/akashchandradas7/ai-email-automation-agent/actions)
+[![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![LLM Engine](https://img.shields.io/badge/LLM-DeepSeek%20V4%20%2F%20OpenAI-4B8BBE?style=flat-square&logo=openai&logoColor=white)](https://deepseek.com/)
+[![Email Gateway](https://img.shields.io/badge/Email-Brevo%20%28Sendinblue%29-0B996F?style=flat-square&logo=mailgun&logoColor=white)](https://www.brevo.com/)
+[![CRM Backend](https://img.shields.io/badge/CRM-Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)](https://www.google.com/sheets/about/)
+[![Knowledge Base](https://img.shields.io/badge/Brain-Obsidian%20Vault-7C3AED?style=flat-square&logo=obsidian&logoColor=white)](https://obsidian.md/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 
 </div>
 
@@ -12,8 +15,24 @@
   <p><strong>Autonomous Enterprise Agent for Outbound Lead Engagement, Asynchronous Webhook Triage, DNS Pre-Flight Verification, and Real-Time CRM Synchronization.</strong></p>
   
   <p>
-    <a href="https://youtu.be/7POD0rk6Xkg"><strong>📺 Watch Live Video Demo (YouTube) »</strong></a>
+    <a href="#-project-demo"><strong>📺 Watch Live Video Demo »</strong></a> •
+    <a href="#-architecture--dataflow"><strong>🏗️ Architecture</strong></a> •
+    <a href="#-key-features"><strong>⚡ Features</strong></a> •
+    <a href="#-quick-start"><strong>🚀 Quick Start</strong></a>
   </p>
+</div>
+
+---
+
+## 📺 Project Demo
+
+Watch the complete walkthrough and live demonstration of the **AI Email Automation Agent** in action:
+
+<div align="center">
+  <a href="https://youtu.be/7POD0rk6Xkg" target="_blank">
+    <img src="https://img.youtube.com/vi/7POD0rk6Xkg/maxresdefault.jpg" alt="AI Email Automation Agent Video Demo" width="720" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  </a>
+  <p><em>Click the image above to watch the full project demo on YouTube</em></p>
 </div>
 
 ---
@@ -40,14 +59,6 @@ Managing high-volume B2B cold outreach and customer inbound inquiries typically 
 - **📚 RAG-Grounded Knowledge Vault:** Integrates an Obsidian-style markdown knowledge base containing company positioning, service offerings, and objection-handling rules to draft high-status consultative responses.
 - **🔁 Autonomous 48-Hour Follow-Up Engine:** Automatically tracks prospects, suppresses emails to leads who have already replied, and schedules tailored value-oriented follow-ups after 48 hours.
 - **📊 Real-Time Google Sheets CRM Sync:** Maintains real-time state for both outbound campaign delivery statuses and inbound triage logs in Google Sheets.
-
----
-
-## 🎬 Video Walkthrough
-
-Watch the complete architecture walkthrough and live end-to-end execution of the agent:
-
-[![AI Email Automation Agent Demo](https://img.shields.io/badge/YouTube-Watch%20Live%20Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/7POD0rk6Xkg)
 
 ---
 

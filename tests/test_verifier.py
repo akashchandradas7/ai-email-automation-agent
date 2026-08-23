@@ -8,16 +8,19 @@ class TestEmailVerifier(unittest.TestCase):
         """Ensure invalid syntax email formats are immediately rejected."""
         is_valid, reason = verify_email_domain("not-an-email")
         self.assertFalse(is_valid)
+        self.assertIn("Invalid email format", reason)
 
     def test_verify_email_domain_missing_domain(self):
         """Ensure missing domain is rejected."""
         is_valid, reason = verify_email_domain("user@")
         self.assertFalse(is_valid)
+        self.assertIn("Missing domain", reason)
 
     def test_verify_email_domain_empty(self):
         """Ensure empty email is rejected."""
         is_valid, reason = verify_email_domain("")
         self.assertFalse(is_valid)
+        self.assertIn("Invalid email format", reason)
 
 
 if __name__ == "__main__":
