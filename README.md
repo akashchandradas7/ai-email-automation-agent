@@ -277,7 +277,7 @@ pytest tests/ --cov=src --cov-report=term-missing
 **Akash Chandra Das**  
 *Building AI agents, automation & RAG Systems | Founder @ GrowthFlow*
 
-- 🌐 **Portfolio / Website:** [growthflow.ltd](https://growthflow.ltd/)
+- 🌐 **Portfolio / Website:** [akashchandradas.com](https://akashchandradas.com/)
 - 💼 **LinkedIn:** [linkedin.com/in/akash-chandradas](https://www.linkedin.com/in/akash-chandradas/)
 - 🐦 **X / Twitter:** [@akashcdas](https://x.com/akashcdas)
 - 📧 **Email:** [akashcdasbd@gmail.com](mailto:akashcdasbd@gmail.com)
